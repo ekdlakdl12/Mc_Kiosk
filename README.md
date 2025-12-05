@@ -89,8 +89,9 @@
 
 
 
-## 📌 다운로드
-🔹 실행기 다운 (.zip)]https://github.com/ekdlakdl12/Mc_Kiosk/raw/master/kiosk_exe.zip
+## 📌 다운로드  
+🔹 실행기 다운 (.zip)  
+https://github.com/ekdlakdl12/Mc_Kiosk/raw/master/kiosk_exe.zip  
 
 
 
