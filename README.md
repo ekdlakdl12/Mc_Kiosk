@@ -84,6 +84,11 @@
   "image": "img/bigmac.png"
 }
 
+```
 
----
+
+
+
+## 📌 다운로드
+🔹 [압축 버전 (.zip)](https://github.com/https://github.com/ekdlakdl12/Mc_Kiosk/kiosk_exe.zip)  
 
