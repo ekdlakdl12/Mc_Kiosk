@@ -90,5 +90,6 @@
 
 
 ## 📌 다운로드
-🔹 [압축 버전 (.zip)](https://github.com/https://github.com/ekdlakdl12/Mc_Kiosk/kiosk_exe.zip)  
+🔹 [압축 버전 (.zip)](https://github.com/ekdlakdl12/Mc_Kiosk/raw/main/kiosk_exe.zip)
+
 
