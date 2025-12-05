@@ -3,10 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="맥도날드 키오스크" Height="974" Width="600" FontFamily="Malgun Gothic">
 
+    <!-- 전체 화면을 감싸는 Grid -->
     <Grid>
 
-        <!-- ====== 첫 화면 ====== -->
+        <!-- ============================= 첫 번째 화면 (광고 + 주문하기) ============================= -->
         <Grid x:Name="Screen1Grid" Visibility="Visible">
+
+            <!-- 상단 광고 이미지 -->
             <Image HorizontalAlignment="Center"
                    VerticalAlignment="Top"
                    Width="600"
@@ -14,12 +17,14 @@
                    Stretch="UniformToFill"
                    Source="/Images/Mc_top_ad.jpg"/>
 
+            <!-- 버튼 영역 (광고 아래 흰색 부분) -->
             <Grid VerticalAlignment="Top" Height="250" Background="White" Margin="0,691,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="200"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
+                <!-- 포인트 적립 박스 -->
                 <Border Background="#FFC72C" CornerRadius="5" Margin="47,28,373,56" Grid.ColumnSpan="2">
                     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
                         <Image Source="/Images/point.png" Height="60" Width="60"/>
@@ -28,6 +33,7 @@
                     </StackPanel>
                 </Border>
 
+                <!-- 주문하기 버튼 -->
                 <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="0,0,10,0">
                     <Button x:Name="OrderButton"
                             Content="주문하기"
@@ -41,50 +47,75 @@
                 </StackPanel>
             </Grid>
         </Grid>
+        <!-- ============================= 1번 화면 끝 ============================= -->
 
 
-        <!-- ====== 주문 화면 ====== -->
+
+        <!-- ============================= 두 번째 화면 (메뉴 선택) ============================= -->
         <Grid x:Name="Screen2Grid" Background="#F5F5F5" Visibility="Collapsed">
             <Grid.RowDefinitions>
                 <RowDefinition Height="80"/>
+                <!-- 카테고리 버튼 -->
                 <RowDefinition Height="*"/>
+                <!-- 메뉴 리스트 + 장바구니 -->
                 <RowDefinition Height="150"/>
+                <!-- 총 금액 + 결제 버튼 -->
             </Grid.RowDefinitions>
 
-            <!-- 카테고리 선택 -->
+            <!-- 버거 / 사이드 카테고리 버튼 -->
             <StackPanel Grid.Row="0" Orientation="Horizontal" Background="White" HorizontalAlignment="Center">
-                <Button x:Name="BurgerButton" Content="버거" Width="150" Height="60" FontSize="20"
-                        Margin="10,0" Background="#FFC72C" Click="CategoryButton_Click"/>
-                <Button x:Name="SideButton" Content="사이드" Width="150" Height="60" FontSize="20"
-                        Margin="10,0" Background="LightGray" Click="CategoryButton_Click"/>
+                <Button x:Name="BurgerButton" Content="버거"
+                        Width="150" Height="60" FontSize="20"
+                        Margin="10,0" Background="#FFC72C"
+                        Click="CategoryButton_Click"/>
+                <Button x:Name="SideButton" Content="사이드"
+                        Width="150" Height="60" FontSize="20"
+                        Margin="10,0" Background="LightGray"
+                        Click="CategoryButton_Click"/>
             </StackPanel>
 
-            <!-- 메뉴 + 장바구니 영역 -->
+
+            <!-- 메뉴 리스트 + 장바구니 -->
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="240"/>
+                    <!-- 왼쪽 : 메뉴 목록 -->
+                    <ColumnDefinition Width="270"/>
+                    <!-- 오른쪽 : 장바구니 -->
                 </Grid.ColumnDefinitions>
 
-                <!-- 메뉴 리스트 -->
+                <!-- 메뉴 스크롤 영역 -->
                 <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="10">
                     <ItemsControl x:Name="MenuListView">
+
+                        <!-- 메뉴 아이템의 배치 방식 (가로로 여러 줄 Wrap) -->
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <WrapPanel HorizontalAlignment="Center"/>
                             </ItemsPanelTemplate>
                         </ItemsControl.ItemsPanel>
 
+                        <!-- 실제 메뉴 UI 모습 정의 -->
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
                                 <Border Width="260" Height="290" Margin="10" Background="White"
                                         BorderBrush="LightGray" BorderThickness="1"
                                         MouseLeftButtonDown="MenuItem_MouseLeftButtonDown" Cursor="Hand">
+
                                     <StackPanel>
+                                        <!-- 메뉴 이미지 -->
                                         <Image Width="200" Height="150" Margin="5" Source="{Binding imageUrl}"/>
+
+                                        <!-- 메뉴 이름 -->
                                         <TextBlock Text="{Binding name_ko}" FontWeight="Bold" FontSize="18" TextAlignment="Center"/>
-                                        <TextBlock Text="{Binding kcal, StringFormat='칼로리: {0}'}" Foreground="Gray" TextAlignment="Center"/>
-                                        <TextBlock Text="{Binding price_display}" FontSize="20" FontWeight="SemiBold" Foreground="#FFC72C" TextAlignment="Center"/>
+
+                                        <!-- 칼로리 -->
+                                        <TextBlock Text="{Binding kcal, StringFormat='칼로리: {0}'}"
+                                                   Foreground="Gray" TextAlignment="Center"/>
+
+                                        <!-- 가격 -->
+                                        <TextBlock Text="{Binding price_display}" FontSize="20" FontWeight="SemiBold"
+                                                   Foreground="#FFC72C" TextAlignment="Center"/>
                                     </StackPanel>
                                 </Border>
                             </DataTemplate>
@@ -92,35 +123,59 @@
                     </ItemsControl>
                 </ScrollViewer>
 
-                <!-- === 장바구니 리스트 === -->
+
+                <!-- 장바구니 영역 -->
                 <Border Grid.Column="1" Background="White" BorderBrush="Gray" BorderThickness="1" Margin="5">
                     <ItemsControl x:Name="CartListView">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
-                                <StackPanel Orientation="Horizontal" Margin="5">
-                                    <TextBlock Text="{Binding Menu.name_ko}" Width="120"/>
-                                    <TextBlock Text="{Binding Quantity}" Width="30" TextAlignment="Center"/>
-                                    <TextBlock Text="{Binding DisplayPrice}" Width="80" TextAlignment="Right" Foreground="#FFC72C"/>
-                                </StackPanel>
+                                <Grid Margin="5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <!-- 제품명 -->
+                                        <ColumnDefinition Width="30"/>
+                                        <!-- 수량 -->
+                                        <ColumnDefinition Width="80"/>
+                                        <!-- 금액 -->
+                                        <ColumnDefinition Width="30"/>
+                                        <!-- 삭제 버튼 -->
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{Binding Menu.name_ko}" Grid.Column="0"/>
+                                    <TextBlock Text="{Binding Quantity}" Grid.Column="1" TextAlignment="Center"/>
+                                    <TextBlock Text="{Binding DisplayPrice}" Grid.Column="2" TextAlignment="Right" Foreground="#FFC72C"/>
+
+                                    <!-- 장바구니에서 빼기 버튼 -->
+                                    <Button Content="-" Grid.Column="3"
+                                            FontSize="12" FontWeight="Bold"
+                                            Width="25" Height="25"
+                                            Margin="5,0,0,0"
+                                            Padding="0"
+                                            Background="Red" Foreground="White"
+                                            Click="RemoveButton_Click"/>
+                                </Grid>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
                 </Border>
             </Grid>
 
-            <!-- 하단 결제 영역 -->
+
+            <!-- 총 금액 + 결제 버튼 -->
             <Grid Grid.Row="2" Background="#333333">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="200"/>
                 </Grid.ColumnDefinitions>
 
+                <!-- 총 금액 텍스트 -->
                 <StackPanel VerticalAlignment="Center" Margin="20,0,0,0">
                     <TextBlock Text="총 주문 금액:" Foreground="White" FontSize="18"/>
                     <TextBlock x:Name="TotalAmountTextBlock" Text="₩ 0"
                                Foreground="#FFC72C" FontSize="32" FontWeight="Bold"/>
                 </StackPanel>
 
+                <!-- 결제하기 버튼 -->
                 <Button x:Name="PaymentButton" Grid.Column="1"
                         Content="결제하기"
                         Background="#FFC72C"
@@ -130,5 +185,7 @@
                         Click="PaymentButton_Click"/>
             </Grid>
         </Grid>
+        <!-- ============================= 2번 화면 끝 ============================= -->
+
     </Grid>
 </Window>

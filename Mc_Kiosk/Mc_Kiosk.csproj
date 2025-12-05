@@ -16,6 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="data\mc-burger.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
