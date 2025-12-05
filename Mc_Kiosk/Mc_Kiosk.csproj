@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="data\mc-burger.json" />
+    <None Remove="data\mc-side.json" />
+    <None Remove="Images\Mc_top_ad.jpg" />
+    <None Remove="Images\point.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="data\mc-burger.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="data\mc-side.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Mc_top_ad.jpg" />
+    <Resource Include="Images\point.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "christmas-truffle-cheese-burger-meal993-1133kcal",
+    "name_ko": "트러플 치즈 버거 세트",
+    "name_en": "Christmas Truffle Cheese Burger Meal",
+    "kcal": "993~1133kcal",
+    "price": 7900,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/765/1/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/2025/11/Corp_PC_VIEW_772x530_%ED%8A%B8%EB%9F%AC%ED%94%8C%EC%B9%98%EC%A6%88%EB%B2%84%EA%B1%B0_EVM.png"
+  },
+  {
+    "id": "christmas-hot-truffle-cheese-burger-meal995-1135kcal",
+    "name_ko": "핫 트러플 치즈 버거 세트",
+    "name_en": "Christmas Hot Truffle Cheese Burger Meal",
+    "kcal": "995~1135kcal",
+    "price": 8100,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/764/2/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/2025/11/Corp_PC_VIEW_772x530_%ED%95%AB%ED%8A%B8%EB%9F%AC%ED%94%8C%EC%B9%98%EC%A6%88%EB%B2%84%EA%B1%B0.png"
+  },
+  {
+    "id": "big-mac-meal906-1045kcal",
+    "name_ko": "빅맥® 세트",
+    "name_en": "Big Mac® Meal",
+    "kcal": "906~1045kcal",
+    "price": 7200,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/178/3/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/2025/08/%EB%B9%85%EB%A7%A5%C2%AE_%EC%84%B8%ED%8A%B8.png"
+  },
+  {
+    "id": "mcspicy-shanghai-burger-meal825-964kcal",
+    "name_ko": "맥스파이시® 상하이 버거 세트",
+    "name_en": "McSpicy® Shanghai Burger Meal",
+    "kcal": "825~964kcal",
+    "price": 6900,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/603/4/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723562660091.png"
+  },
+  {
+    "id": "1955-1955-burger-meal896-1035kcal",
+    "name_ko": "1955® 버거 세트",
+    "name_en": "1955® Burger Meal",
+    "kcal": "896~1035kcal",
+    "price": 7500,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/2/5/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723564262197.png"
+  },
+  {
+    "id": "double-quarter-pounder-with-cheese-meal1094-1233kcal",
+    "name_ko": "더블 쿼터파운더® 치즈 세트",
+    "name_en": "Double Quarter Pounder® with Cheese Meal",
+    "kcal": "1094~1233kcal",
+    "price": 8900,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/189/6/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723563759418.png"
+  },
+  {
+    "id": "quarter-pounder-with-cheese-meal859-999kcal",
+    "name_ko": "쿼터파운더® 치즈 세트",
+    "name_en": "Quarter Pounder® with Cheese Meal",
+    "kcal": "859~999kcal",
+    "price": 7400,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/188/7/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723563812629.png"
+  },
+  {
+    "id": "mccrispy-deluxe-burger-meal938-1077kcal",
+    "name_ko": "맥크리스피™ 디럭스 버거 세트",
+    "name_en": "McCrispy™ Deluxe Burger Meal",
+    "kcal": "938~1077kcal",
+    "price": 7800,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/471/8/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723562746514.png"
+  },
+  {
+    "id": "mccrispy-classic-burger-meal926-1066kcal",
+    "name_ko": "맥크리스피™ 클래식 버거 세트",
+    "name_en": "McCrispy™ Classic Burger Meal",
+    "kcal": "926~1066kcal",
+    "price": 7500,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/470/9/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723562830850.png"
+  },
+  {
+    "id": "bacon-tomato-deluxe-meal894-1033kcal",
+    "name_ko": "베이컨 토마토 디럭스 세트",
+    "name_en": "Bacon Tomato Deluxe Meal",
+    "kcal": "894~1033kcal",
+    "price": 7800,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/187/10/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723563896442.png"
+  },
+  {
+    "id": "mcchicken-mozzarellameal1066-1206kcal",
+    "name_ko": "맥치킨® 모짜렐라 세트",
+    "name_en": "McChicken® Mozzarella Meal",
+    "kcal": "1066~1206kcal",
+    "price": 6700,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/293/11/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723563301214.png"
+  },
+  {
+    "id": "mcchicken-meal847-986kcal",
+    "name_ko": "맥치킨® 세트",
+    "name_en": "McChicken® Meal",
+    "kcal": "847~986kcal",
+    "price": 6000,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/291/12/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723563415066.png"
+  },
+  {
+    "id": "double-bulgogi-burger-meal959-1098kcal",
+    "name_ko": "더블 불고기 버거 세트",
+    "name_en": "Double Bulgogi Burger Meal",
+    "kcal": "959~1098kcal",
+    "price": 6300,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/186/13/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723563975095.png"
+  },
+  {
+    "id": "bulgogi-burgermeal732-872kcal",
+    "name_ko": "불고기 버거 세트",
+    "name_en": "Bulgogi Burger Meal",
+    "kcal": "732~872kcal",
+    "price": 5000,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/181/14/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723564031536.png"
+  },
+  {
+    "id": "shrimp-beef-burger-meal863-1003kcal",
+    "name_ko": "슈비 버거 세트",
+    "name_en": "Shrimp Beef Burger Meal",
+    "kcal": "863~1003kcal",
+    "price": 7000,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/81/15/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723564188909.png"
+  },
+  {
+    "id": "supreme-shrimp-burger-meal732-872kcal",
+    "name_ko": "슈슈 버거 세트",
+    "name_en": "Supreme Shrimp Burger Meal",
+    "kcal": "732~872kcal",
+    "price": 6300,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/220/16/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723563590522.png"
+  },
+  {
+    "id": "tomato-cheese-beef-burger-meal727-866kcal",
+    "name_ko": "토마토 치즈 비프 버거 세트",
+    "name_en": "Tomato Cheese Beef Burger Meal",
+    "kcal": "727~866kcal",
+    "price": 6000,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/606/17/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1742426716721.png"
+  },
+  {
+    "id": "triple-cheeseburger-meal987-1136kcal",
+    "name_ko": "트리플 치즈버거 세트",
+    "name_en": "Triple Cheeseburger Meal",
+    "kcal": "987~1136kcal",
+    "price": 7000,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/331/18/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1744956010637.png"
+  },
+  {
+    "id": "double-cheeseburger-meal802-942kcal",
+    "name_ko": "더블 치즈버거 세트",
+    "name_en": "Double Cheeseburger Meal",
+    "kcal": "802~942kcal",
+    "price": 6000,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/224/19/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723563512104.png"
+  },
+  {
+    "id": "cheeseburger-meal641-781kcal",
+    "name_ko": "치즈버거 세트",
+    "name_en": "Cheeseburger Meal",
+    "kcal": "641~781kcal",
+    "price": 5500,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/318/20/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1723563067813.png"
+  },
+  {
+    "id": "hamburger266kcal",
+    "name_ko": "햄버거",
+    "name_en": "Hamburger",
+    "kcal": "266kcal",
+    "price": 3000,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/26/21/16",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/2025/08/%ED%96%84%EB%B2%84%EA%B1%B0.png"
+  }
+]

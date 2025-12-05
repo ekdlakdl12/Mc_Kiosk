@@ -1,0 +1,62 @@
+[
+  {
+    "id": "chicken-mozzarella-snack-wrap",
+    "category": "sides",
+    "name_ko": "치킨 모짜렐라 스낵랩",
+    "name_en": "Chicken Mozzarella Snack Wrap",
+    "kcal": "365kcal",
+    "price": 3500,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/753/1/8",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/2025/10/Corp_PC_View_772x530_%ED%95%B4%ED%94%BC%EC%8A%A4%EB%82%B5_Q4_%EC%B9%98%ED%82%A8%EB%AA%A8%EC%A7%9C%EB%A0%90%EB%9D%BC%EC%8A%A4%EB%82%B5%EB%9E%A9.png"
+  },
+  {
+    "id": "2-mcwings-2pcs",
+    "category": "sides",
+    "name_ko": "맥윙™ 2조각",
+    "name_en": "McWings™ 2pcs",
+    "kcal": "245kcal",
+    "price": 3800,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/289/2/8",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1712028403142.png"
+  },
+  {
+    "id": "2-mcwings-combo-2pcs",
+    "category": "sides",
+    "name_ko": "맥윙™ 콤보 2조각",
+    "name_en": "McWings™ combo 2pcs",
+    "kcal": "245~385kcal",
+    "price": 4500,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/382/3/8",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/product/pcfile/1712028678503.png"
+  },
+  {
+    "id": "4-mcwings-4pcs",
+    "category": "sides",
+    "name_ko": "맥윙™ 4조각",
+    "name_en": "McWings™ 4pcs",
+    "kcal": "490kcal",
+    "price": 6500,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/716/4/8",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/2025/08/%EB%A7%A5%EC%9C%99%E2%84%A2_4%EC%A1%B0%EA%B0%81.png"
+  },
+  {
+    "id": "4-mcwings-combo-4pcs",
+    "category": "sides",
+    "name_ko": "맥윙™ 콤보 4조각",
+    "name_en": "McWings™ combo 4pcs",
+    "kcal": "490~630kcal",
+    "price": 7200,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/718/5/8",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/2025/08/%EB%A7%A5%EC%9C%99%E2%84%A2%EC%BD%A4%EB%B3%B4_4%EC%A1%B0%EA%B0%81.png"
+  },
+  {
+    "id": "8-mcwings-8pcs",
+    "category": "sides",
+    "name_ko": "맥윙™ 8조각",
+    "name_en": "McWings™ 8pcs",
+    "kcal": "979kcal",
+    "price": 12800,
+    "url": "https://www.mcdonalds.co.kr/kor/menu/detail/717/6/8",
+    "imageUrl": "https://www.mcdonalds.co.kr/upload/2025/08/%EB%A7%A5%EC%9C%99%E2%84%A2_8%EC%A1%B0%EA%B0%81.png"
+  }
+]
