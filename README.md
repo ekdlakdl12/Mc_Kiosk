@@ -41,4 +41,45 @@
 ---
 
 ## 📁 프로젝트 구조
+📦 Project
+├─ MainWindow.xaml
+├─ MainWindow.xaml.cs
+├─ Models
+│ └─ Menu.cs
+├─ ViewModels (선택)
+├─ Views (선택)
+├─ Services (선택)
+└─ Resources / Json
+├─ mc-burgers.json
+├─ mc-cafe.json
+├─ mc-lunch.json
+├─ mc-morning.json
+├─ mc-sides.json
+├─ mc-happy-meal.json
+└─ mc-happy-snack.json
 
+
+> 기본 조건은 **Menu.cs 포함**, 나머지 구조는 자유롭게 확장 가능.
+
+---
+
+## 📄 사용된 JSON 데이터
+
+프로그램은 최소 **2개 이상의 JSON 파일**을 사용해 메뉴를 불러옵니다.
+
+- 🍔 mc-burgers.json  
+- ☕ mc-cafe.json  
+- 🍱 mc-lunch.json  
+- 🌅 mc-morning.json  
+- 🍟 mc-sides.json  
+- 🎁 mc-happy-meal.json  
+- 🍪 mc-happy-snack.json  
+
+각 JSON 데이터 예시는 아래와 같습니다.
+
+```json
+{
+  "name": "빅맥",
+  "price": 5200,
+  "image": "img/bigmac.png"
+}
