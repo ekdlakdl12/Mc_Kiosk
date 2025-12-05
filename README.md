@@ -48,7 +48,7 @@
 │ └─ Menu.cs  
 ├─ ViewModels  
 ├─ Views  
-├─ Services 
+├─ Services  
 └─ Resources / Json  
 ├─ mc-burgers.json  (선택)  
 ├─ mc-cafe.json  
