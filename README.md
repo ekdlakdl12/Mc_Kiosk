@@ -46,13 +46,13 @@
 ├─ MainWindow.xaml.cs  
 ├─ Models  
 │ └─ Menu.cs  
-├─ ViewModels
+├─ ViewModels  
 ├─ Views  
 ├─ Services 
 └─ Resources / Json  
-├─ mc-burgers.json  (선택)
+├─ mc-burgers.json  (선택)  
 ├─ mc-cafe.json  
-├─ mc-lunch.json  (선택)
+├─ mc-lunch.json  (선택)  
 ├─ mc-morning.json  
 ├─ mc-sides.json  
 ├─ mc-happy-meal.json  
