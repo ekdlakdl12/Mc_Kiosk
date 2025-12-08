@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=f4a261&height=300&section=header&text=WPF%20Kiosk%20Project&fontSize=90&fontColor=ffffff&fontAlign=center" alt="Kiosk Header">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=f4a261&height=300&section=header&text=WPF%20Kiosk&fontSize=90&fontColor=ffffff&fontAlign=center" alt="Kiosk Header">
 </h1>
 
 <div align="center">
